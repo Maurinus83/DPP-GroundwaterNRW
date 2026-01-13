@@ -51,6 +51,7 @@ Notebooks in dieser Reihenfolge ausführen:
 3. notebooks/03_analysis_total_trend.ipynb
 4. notebooks/04_visualization_slope_per_year.ipynb
 5. notebooks/05_visualization_total_trend.ipynb
+6. notebooks/06_spatial_representation_qgis.ipynb
 <!--
 2. notebooks/02_preprocessing.ipynb
 3. notebooks/03_modeling.ipynb
