@@ -1,7 +1,7 @@
 # Datenquelle der Messdaten aus Grundwassermessstellen
 
 
-## OpenGeodaten Internetportal von NRW
+## OpenGeodaten Internetportal von Nordrhein-Westfalen
 Das OpenGeodaten-Projekt des Landes Nordrhein-Westfalen (NRW) stellt umfangreiche, frei zugängliche Daten zu Grundwassermessstellen bereit und ermöglicht damit die transparente Analyse von Grundwasserständen und -qualitäten. Unter folgender URL können die Daten bezogen werden:
 
 [OpenGeodata.NRW](https://www.opengeodata.nrw.de/produkte/umwelt_klima/wasser/grundwasser/hygrisc/) - Grundwassermessstellen NRW
