@@ -1,6 +1,6 @@
-# 🚀 Zeitreihen- und Trendanalyse von Grundwasserständen in Nordrhein-Westfalen (2010–2019)
+# 🚀 Trend- und Zeitreihenanalyse von Grundwasserständen in Nordrhein-Westfalen 2010 – 2019
 
-In diesem Projekt werden Grundwasserstandsdaten aus Nordrhein-Westfalen für den Zeitraum 2010–2019 mithilfe von Trend- und Zeitreihenanalysen ausgewertet. Ziel ist es, langfristige Entwicklungen der Grundwasserstände zu identifizieren und räumlich vergleichbar darzustellen.
+In diesem Projekt werden Grundwasserstandsdaten aus Nordrhein-Westfalen für den Zeitraum 2010 – 2019 mithilfe von Trend- und Zeitreihenanalysen ausgewertet. Ziel ist es, langfristige Entwicklungen der Grundwasserstände zu identifizieren und räumlich vergleichbar darzustellen.
 
 ## 📊 Projektübersicht
 
