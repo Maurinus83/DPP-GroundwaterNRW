@@ -1,6 +1,6 @@
 # 🚀 Zeitreihen- und Trendanalyse von Grundwasserständen in Nordrhein-Westfalen (2010–2019)
 
-In diesem Projekt werden Grundwasserstandsdaten aus Nordrhein-Westfalen für den Zeitraum 2010–2019 mithilfe von Zeitreihen- und Trendanalysen ausgewertet. Ziel ist es, langfristige Entwicklungen des Grundwasserspiegels zu identifizieren und räumlich vergleichbar darzustellen.
+In diesem Projekt werden Grundwasserstandsdaten aus Nordrhein-Westfalen für den Zeitraum 2010–2019 mithilfe von Trend- und Zeitreihenanalysen ausgewertet. Ziel ist es, langfristige Entwicklungen der Grundwasserstände zu identifizieren und räumlich vergleichbar darzustellen.
 
 ## 📊 Projektübersicht
 
@@ -14,18 +14,19 @@ Ziel dieses Projekts ist es, den übergeordneten Trend der Grundwasserstandsentw
 
 **Methoden:** 
 * Explorative Datenanalyse (EDA)
-* Zeitreihenanalyse
 * Lineare Regression
-* räumliche Analyse in QGIS (Postprocessing)
+* Zeitreihenanalyse
+* räumliche Visualisierung in QGIS (Postprocessing)
 <!-- Welche Techniken/Algorithmen verwendest du? -->
 
 ## 🪃 Datenquelle
 
-Die Rohdaten stammen aus dem OpenHygrisC-Projekt des Bundeslandes Nordrhein-Westfalen. OpenHygrisC bezeichnet ein offenes Datenset mit Grundwasserdaten, das im Rahmen der Open-Data-Initiativen des Landes zur frei verfügbaren Nutzung bereitgestellt wird – und wird u. a. für Bildung, Forschung und Umweltanalysen genutzt.  
+Die Rohdaten stammen aus dem OpenHygrisC-Projekt des Bundeslandes Nordrhein-Westfalen. OpenHygrisC ist ein offener Datensatz mit Messwerten aus der Grundwasserüberwachung in Nordrhein-Westfalen. Er umfasst unter anderem Informationen zu Messstellen, Wasserständen sowie chemischen Messwerten über einen langen Zeitraum.
+
+Die Daten werden im Rahmen der Open-Data-Initiativen des Landes über die offene Geodateninfrastruktur OpenGeodata.NRW veröffentlicht und von der Landesverwaltung Nordrhein-Westfalen betrieben und gepflegt. Sie stehen unter der Lizenz „Datenlizenz Deutschland – Zero (DL-DE-Zero)“ und können damit uneingeschränkt, auch für wissenschaftliche, kommerzielle und nicht kommerzielle Zwecke, genutzt werden.
   
 https://www.opengeodata.nrw.de/produkte/umwelt_klima/wasser/grundwasser/hygrisc/  
-  
-OpenHygrisC ist ein offener Datensatz mit Messwerten aus der Grundwasser-Überwachung von Nordrhein-Westfalen. Diese Daten umfassen chemische Messwerte, Wasserstände und Informationen zu Messstellen über viele Jahre. Die Daten werden auf dem Portal OpenGeodata.NRW veröffentlicht, unter der Lizenz „Datenlizenz Deutschland – Zero (DL-DE-Zero)“, was bedeutet, dass sie ohne Einschränkungen frei verwendet werden können (auch für kommerzielle und wissenschaftliche Zwecke).  
+    
 Nähere Informationen finden Sie [hier](docs/data_source.md).
 
 ## ⚙ Setup
@@ -51,11 +52,10 @@ Notebooks in dieser Reihenfolge ausführen:
 3. notebooks/03_analysis_total_trend.ipynb
 4. notebooks/04_visualization_slope_per_year.ipynb
 5. notebooks/05_visualization_total_trend.ipynb
-6. notebooks/06_spatial_representation_qgis.ipynb
-<!--
-2. notebooks/02_preprocessing.ipynb
-3. notebooks/03_modeling.ipynb
-4. notebooks/04_results.ipynb
--->
+
+Die Notebooks 06 und 07 werden ausschließlich zur Erläuterung und Präsentation der Ergebnisse verwendet und enthalten keinen ausführbaren Quellcode.  
+
+* notebooks/06_spatial_representation_qgis.ipynb
+* notebooks/07_powerpoint presentation.ipynb
 
 
